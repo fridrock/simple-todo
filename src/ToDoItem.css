@@ -1,0 +1,54 @@
+.item_container{
+    position: relative;
+    width: 80%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 10px solid #fff;
+    border-radius: 20px;
+    padding: 20px;
+    padding-top: 10px;
+}
+.done{
+    background-color: green;
+}
+.button_container{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.label {
+    font-size:25px;
+    text-transform: uppercase;
+    font-style: initial;
+    font-weight: bold;
+}
+.item_container >div {
+    margin-top: 20px;
+}
+.goal {
+    font-size:20px;
+}
+.is_done{
+    width: 40px;
+    height: auto;
+    padding: 8px;
+    padding-right: 15px;
+    text-align: center;
+    background-color: yellow;
+    border: 1px solid yellow;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.delete_todo{
+    position: absolute;
+    right: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
